@@ -19,6 +19,37 @@
     text-align: center;
     line-height: 90px;
 }
+#content {
+    width: 60%;
+    float: left;
+}
+ 
+#content > h1 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+    text-shadow: 0px 0px 2px rgb(1, 17, 249);
+
+}
+
+#content .caja {
+    position: relative;
+    width: 40%;
+    height: 250px;
+    background-color: #ccc;
+    border: 1px solid rgb(113,112, 142);
+    color: rgb(106, 8, 46);
+    float: left;
+    margin: 20px;
+    margin-left: 35px;
+    text-align: center;
+    line-height: 250px;
+    text-transform: uppercase;
+}
+.sombra-interior{
+    box-shadow: 5px 5px 10px rgb(103, 119,143) inset !important;
+}
 #menu {
     background-color: #ccc;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
@@ -32,12 +63,37 @@
     padding: 10px
 }
 
-#menu ul li:{
+
+#menu ul li: {
  color: #444;
 
 }
 #menu ul li:hover {
     background: rgb(10, 81, 163);
     cursor: pointer;
+
+#menu ul li:hover a {
+     display: block;
+    color: white 
+    
+}
+
+}
+/*esto es para limpiar los div o objetos
+de mi html y llevarlo ordenado*/
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+
+#lateral {
+    float: left;
+    width: 30%;
+    border: 1px solid  red;
+    min-height: 500px;
+    max-height: 600px;
+    text-align: justify;
+    overflow-y: scroll;
 
 }

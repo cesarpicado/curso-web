@@ -59,7 +59,7 @@
 
 }
 
-#menu ul li{
+#menu ul li a{
     display: block;
     float: left;
     border-right: 1px solid #eee;
@@ -74,13 +74,10 @@
 #menu ul li:hover {
     background: rgb(10, 81, 163);
     cursor: pointer;
-
-#menu ul li:hover a {
-     display: block;
-    color: white 
-    
 }
-
+#menu ul li:hover a {
+    display: block;
+   color: white 
 }
 /*esto es para limpiar los div o objetos
 de mi html y llevarlo ordenado*/

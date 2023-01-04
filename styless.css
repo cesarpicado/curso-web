@@ -59,7 +59,7 @@
 
 }
 
-#menu ul li a{
+#menu ul li {
     display: block;
     float: left;
     border-right: 1px solid #eee;
@@ -67,7 +67,7 @@
 }
 
 
-#menu ul li: {
+#menu ul li: a{
  color: #444;
 
 }

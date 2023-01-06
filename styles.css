@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: rgb(143, 71, 19);
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:nth-child(3){
+    color: orangered;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: green;
+}
+
+ul li:hover{
+    color: purple;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlace:link{
+    font-size: 35px;
+    color: red;
+}
+
+#mi-enlance:visited{
+    font-size: 35px;
+    color: red;
+}
+
+#mi-enlace:hover{
+    font-size: 50px;
+    color: green;
+}
+
+input[type="text"]{
+   width: 200px;
+   height: 20px;
+   border: 3px solid rgb(9, 66, 151);
+   border-radius: 5px;
+   margin-top: 10px;
+   padding: 5px;
+
+}

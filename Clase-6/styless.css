@@ -86,7 +86,6 @@ de mi html y llevarlo ordenado*/
     clear: both;
 }
 
-
 #lateral {
     float: left;
     width: 30%;
@@ -96,7 +95,10 @@ de mi html y llevarlo ordenado*/
     text-align: justify;
     overflow-y: scroll;
 
+
+
 }
+
 #footer {
     width: 100%;
     height: 55px;
@@ -106,4 +108,56 @@ de mi html y llevarlo ordenado*/
     color: #444;
     border-top: 1px solid #ccc;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#later:hover{
+    border: 5px solid green;
+    border-radius: 5px;
+    color: blue;
+}
+
+#foote {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.libre{ 
+    background: #ccc;
+    background-color: aqua;
+    border: 1px solid black;
+    color: green;
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    right: 50%;
+}
+/*diferencia entre posicion fija y relativa*/
+.libre2{
+background-color: green;
+top: 234px;
+z-index: yellow;
+
+
+
+.fija {
+    background: #ccc ; 
+    background-color: rgb (200,203,212);
+    border : 1px solid rgb(166,255,0) ;
+    height: 70px;
+    width:  70px;
+
+    position: fixed;
+    top: 300px;
+    left:29%;
+     right:50%;
+
 }

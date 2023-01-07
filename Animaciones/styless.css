@@ -1,0 +1,62 @@
+#boton {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid green;
+    transition: all 500ms, background-color 3s;
+}
+
+#boton:hover {
+    background-color: #043607;
+    border-radius: 10px;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: #1aa6c4;
+    border: 1px solid #4caf50;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    animation: desplazamiento;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento {
+    0% {
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        margin-left: 500px;
+        transform: rotate(360deg);
+        border-radius: 999px;
+    }
+
+    75% {
+        background: red;
+    }
+
+    77% {
+        border: 10px dashed blue;
+    }
+    100% {
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+}

@@ -49,3 +49,26 @@
         a:visited{
             color: #70b231;
         }
+
+        .Red{
+            color: #9c2421;
+        }
+
+        .orange{
+            color: #D6902A;
+        }
+
+        .blue{
+            color: #0c73f2;
+        }
+        .icon {
+            font-family: 'icons';
+            float: left;
+            margin-right: 5px;
+            margin-top: -2px;
+        }
+        
+        .clearfix {
+            float: none;
+            clear: both:
+        }
